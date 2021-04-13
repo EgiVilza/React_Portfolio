@@ -1,38 +1,50 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from "react"
-import { Link, useLocation } from "react-router-dom"
+import React, {useEffect} from "react"
+import { Link } from "react-router-dom"
 import "../scss/style.css"
+import JsScript from  "../Scripts/script"
 
 function NavTabs() {
-    const location = useLocation()
+
+    useEffect(() => {
+        JsScript()
+    }, [])
 
     return (
         <header className="header">
         <div className="overlay has-fade"></div>
     
         <nav className="container container--pall flex flex-jc-sb flex-ai-c">
-          <a href="index.html" className="header__logo">
-            Egi Vilza Portfolio
-          </a>
+          <Link to="/" className="header__logo">
+                Home Page
+          </Link>
     
-          <a id="btnHamburger" a href="#" className="header__toggle hide-for-desktop">
+          <Link id="btnHamburger" to="#" className="header__toggle hide-for-desktop">
             <span></span>
             <span></span>
             <span></span>
-          </a>
+          </Link>
     
     
           <div className="header__links hide-for-mobile">
-            <a href="./Assets/Resume.html">Resume</a><a href="./Assets/Portfolio_Projects.html">Portfolio Projects</a>
+            <Link to="/resume">
+                Resume
+            </Link>
+            <Link to="/portfolio">
+                Portfolio Projects
+            </Link>
           </div>
     
         </nav>
     
           <div className="header__menu has-fade">
-              <a href="./Assets/Resume.html">Resume</a>
-              <a href="./Assets/Portfolio_Projects.html">Portfolio Projects</a>
+              <Link to="/resume">
+                Resume
+              </Link>
+              <Link to="/portfolio">
+                Portfolio Projects
+              </Link>
           </div>
-    
       </header>
     )
 }
