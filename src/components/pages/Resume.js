@@ -3,7 +3,7 @@ import "../scss/style.css"
 
 function Resume() {
     return (
-        <p class="note">To Be Updated</p>
+        <p className="note">To Be Updated</p>
     )
 }
 

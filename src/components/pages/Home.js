@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react"
 import "../scss/style.css"
+import ProfileImage from "../Images/ProfilePhoto.jpg"
 
 function Home() {
     return (
@@ -15,7 +16,7 @@ function Home() {
             
             <section className="profile__grid">
                 <div className="profile__picture profile__item">
-                    <img src="../Images/ProfilePhoto.jpg" alt="Profile Photo"></img>
+                    <img src={ProfileImage} alt="Profile Photo"></img>
                 </div>
                 
                 <div className="profile__text profile__item">

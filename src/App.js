@@ -4,8 +4,6 @@ import NavTabs from "./components/Nav/NavTabs"
 import Home from "./components/Pages/Home"
 import Resume from "./components/Pages/Resume"
 import Portfolio from "./components/Pages/Portfolio_Projects"
-//import JsScript from "../src/components/Scripts/script"
-//import ScriptTag from 'react-script-tag';
 
 function App() {
     return (
