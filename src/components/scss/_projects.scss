@@ -1,0 +1,66 @@
+.project {
+    &__grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0.875rem;
+    }
+
+    &__item {
+        border-radius: 0.3125rem;
+        overflow: hidden; //show the rounded corners
+        box-shadow: 0px 3px 12px rgba(0,0,0,0.15);
+        background-color: white;
+        transition: all 150ms ease-in-out;
+        &:hover {
+            transform: scale(1.02);
+        }
+        margin: auto;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0.875rem;
+
+        @include breakpoint-up(medium){
+            grid-template-columns: repeat(1, 1fr);
+        }
+    
+        @include breakpoint-up(large){
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        padding: .75rem;
+        margin: 1.25rem;
+    }
+
+    &__pageTitle {
+        color: black;
+        text-align: center;
+        font-size: 1.875rem;
+    }
+
+    &__title {
+        color: black;
+        text-align: center;
+        font-size: 1.5625rem;
+    }
+
+    &__links {
+        color: black;
+        text-align: center;
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    &__description {
+        color: rgb(53, 52, 52);
+    }
+
+}
+
+
