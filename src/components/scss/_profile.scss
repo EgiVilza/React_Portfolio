@@ -28,8 +28,8 @@
     &__picture {
         display: inline-block;
         position: relative;
-        width: 400px;
-        height: 400px;
+        width: 25rem;
+        height: 25rem;
         overflow: hidden;
         border-radius: 50%;
         margin-top: 1.875rem;
@@ -37,8 +37,18 @@
         img {
             width: auto;
             height: auto;
-            margin-left: -65px;
+            margin-left: -4.0625rem;
           }
+
+        @include breakpoint-down(small){
+            width: 18.75rem;
+            height: 18.75rem;
+
+            img {
+                margin-left: -7.5rem;
+                margin-top: -3.125rem;
+              }
+        }
     }
 
     &__text {

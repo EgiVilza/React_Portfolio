@@ -24,12 +24,10 @@ function Home() {
                         About Me
                     </p>
                     <p>
-                        Hi! My Name is Egi Vilza and I am currently working through a web development bootcamp through trilogy 
-                        where I am building my skills in javascript using jQuery, node, npm, sql and nosql databases, react.js and more!
-                        To view some of the projects I have been working on, click on the "Portfolio Projects" link for project links on
-                        github repos, videos, and pages as well as a description for each project.
-                        At the moment, I am working as an Application Analyst at Washington University in St. Louis, but open for any exciting opportunities 
-                        in the web development market.
+                    Hi! My Name is Egi Vilza. To view some of the projects I have been working on, 
+                    click on the "Portfolio Projects" link for project links on github repos, 
+                    videos, and pages as well as a description for each project. 
+                    At the moment I am currently open for any exciting opportunities in the web development market.
                     </p><br></br>
                 </div>
             </section>
