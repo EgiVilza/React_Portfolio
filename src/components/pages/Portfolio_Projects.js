@@ -4,19 +4,38 @@ import "../scss/style.css"
 import BlackJackCasino from "../Images/BlackJackCasino.png"
 import WorldRecipeGenerator from "../Images/WorldRecipeGenerator.png"
 import EmployeeManagementSystem from "../Images/EmployeeManagementSystem.png"
-import PasswordGenerator from "../Images/PasswordGenerator.png"
+import CasinoMultiplayer from "../Images/CasinoMultiplayer.png"
 
 function Portfolio() {
     return (
         <div>
-            <section className="project__grid">  
+            <section className="project__grid"> 
+                <div className="project__item">
+                    <div>
+                        <p className="project__title">Casino (BlackJack) Multiplayer</p>
+                        <p className="project__links">
+                        <a href="https://github.com/EgiVilza/Casino_Multiplayer.git" target="_blank" rel="noreferrer">Github Repo Link</a>
+                        <a href="" target="_blank" rel="noreferrer">Video Demo Link</a>
+                        <a href="https://casino-multiplayer.herokuapp.com/" target="_blank" rel="noreferrer">Heroku Site Link</a>
+                        </p>
+                        <p className="project__description">Project Description: 
+                        Play a multiplayer game of BlackJack against the house with your and your friends! 
+                        To start, the user must make an account by signing up with their username, email, and password. 
+                        After signing in, the user will be directed to the game page
+                        and will have the option to join the game. Once they have joined the game, they will be able to view other players
+                        who have also joined the game. When the user is finished playing the game, they will be able to submit their score on the leaderboard.
+                        </p>
+                    </div>
+                    <img src={CasinoMultiplayer}></img>
+                </div>
+
                 <div className="project__item">
                 <div>
                     <p className="project__title">BlackJack Casino</p>
                     <p className="project__links">
-                    <a href="https://github.com/EgiVilza/Project2.git">Github Repo Link</a>
-                    <a href="https://drive.google.com/file/d/1gNp3-aFsfN4p1X5qIHFrtILm7UIg1F0k/view">Video Demo Link</a>
-                    <a href="https://frozen-wildwood-18963.herokuapp.com/">Heroku Site Link</a>
+                    <a href="https://github.com/EgiVilza/Project2.git" target="_blank" rel="noreferrer">Github Repo Link</a>
+                    <a href="https://drive.google.com/file/d/1gNp3-aFsfN4p1X5qIHFrtILm7UIg1F0k/view" target="_blank" rel="noreferrer">Video Demo Link</a>
+                    <a href="https://frozen-wildwood-18963.herokuapp.com/" target="_blank" rel="noreferrer">Heroku Site Link</a>
                     </p>
                     <p className="project__description">Project Description: Play a game of BlackJack against the house. 
                     Start the game with 5000 in the bank, once the player is finished with playing the game, 
@@ -36,9 +55,9 @@ function Portfolio() {
                 <div>
                     <p className="project__title">World Recipe Generator</p>
                     <p className="project__links">
-                    <a href="https://github.com/EgiVilza/NutritiousRecipeGenerator.git">Github Repo Link</a>
-                    <a href="https://drive.google.com/file/d/1i8II1TfKTViA3zX4ZIqisy2NNL5KZiDK/view">Video Demo Link</a>
-                    <a href="https://egivilza.github.io/NutritiousRecipeGenerator/">Github Page Link</a>
+                    <a href="https://github.com/EgiVilza/NutritiousRecipeGenerator.git" target="_blank" rel="noreferrer">Github Repo Link</a>
+                    <a href="https://drive.google.com/file/d/1i8II1TfKTViA3zX4ZIqisy2NNL5KZiDK/view" target="_blank" rel="noreferrer">Video Demo Link</a>
+                    <a href="https://egivilza.github.io/NutritiousRecipeGenerator/" target="_blank" rel="noreferrer">Github Page Link</a>
                     </p>
                     <p className="project__description">Project Description: This project is a web application that allows users to quickly display recipes from a recipe API in different ways,
                     to inspire creativity in the kitchen. The landing page is a recipe search where the user can simply search for whatever recipe they wish.
@@ -59,8 +78,8 @@ function Portfolio() {
                 <div>
                     <p className="project__title">Employee Managment System</p>
                     <p className="project__links">
-                    <a href="https://github.com/EgiVilza/Employee_Tracker.git">Github Repo Link</a>
-                    <a href="https://drive.google.com/file/d/1KqPml_ouI3hD3j_BG7UQglMA5ib2R-ru/view">Video Demo Link</a>
+                    <a href="https://github.com/EgiVilza/Employee_Tracker.git" target="_blank" rel="noreferrer">Github Repo Link</a>
+                    <a href="https://drive.google.com/file/d/1KqPml_ouI3hD3j_BG7UQglMA5ib2R-ru/view" target="_blank" rel="noreferrer">Video Demo Link</a>
                     </p>
                     <p className="project__description">Project Description: This project is to demonstrate a employee management system that has the functionality to view, add, and remove 
                     employees/departments/roles through the use of mysql and npm inquirer (by using the console terminal). 
@@ -69,22 +88,6 @@ function Portfolio() {
                     </p>
                 </div>
                 <img src={EmployeeManagementSystem}></img>
-                </div>
-
-                <div className="project__item">
-                <div>
-                    <p className="project__title">Password Generator</p>
-                    <p className="project__links">
-                    <a href="https://github.com/EgiVilza/PasswordGenerator.git">Github Repo Link</a>
-                    <a href="https://drive.google.com/file/d/1wUZ6aScHn4i0CUDFCN_6-sNiJNrGoaCM/view">Video Demo Link</a>
-                    <a href="https://egivilza.github.io/PasswordGenerator/">Github Page Link</a>
-                    </p>
-                    <p className="project__description">Project Description: To generate a random password by asking a series of questions 
-                    based on the criteria needed to generate the password. The series of question will be prompted to the user
-                    after clicking the "Generate Password" button.
-                    </p>
-                </div>
-                <img src={PasswordGenerator}></img>
                 </div>
             </section>
         </div>
