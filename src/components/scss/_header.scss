@@ -41,6 +41,17 @@
 
     &__logo{  
         color: white;
+        position: relative;
+            font-size: $font-lg;
+            transition: color 300ms ease-in-out;
+
+            &:hover {
+                color: $darkBlue;
+
+                &::before {
+                    opacity: 1;
+                }
+            }
     }
 
     &__toggle { //mobile menu (toggle)

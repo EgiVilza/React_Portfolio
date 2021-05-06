@@ -24,11 +24,16 @@ function Home() {
                         About Me
                     </p>
                     <p>
-                    Hi! My Name is Egi Vilza. To view some of the projects I have been working on, 
-                    click on the "Portfolio Projects" link for project links on github repos, 
-                    videos, and pages as well as a description for each project. 
-                    At the moment I am currently open for any exciting opportunities in the web development market.
+                    Hi! My name is Egi Vilza. I have recently completed my coding boot camp for the 
+                    Technology and Leadership Center at Washington University in St. Louis. 
+                    At the moment, I am currently looking for 
+                    junior level opportunities in the web development field.
+                    To view some of the projects I have been working on, 
+                    click on the "Portfolio Projects" link above for project links on github repos, 
+                    videos, and pages as well as a description for each project. To view more, click on the
+                    link to my GitHub profile below.
                     </p><br></br>
+                    <p>GitHub Profile: <a href="https://github.com/EgiVilza" target="_blank" rel="noreferrer">github.com/EgiVilza</a></p>
                 </div>
             </section>
         </div>

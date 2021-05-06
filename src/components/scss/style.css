@@ -104,7 +104,7 @@ a, a:visited, a:hover {
 
 .note {
   text-align: center;
-  font-size: 50px;
+  font-size: 3.125rem;
 }
 
 .container--pall {
@@ -238,6 +238,18 @@ a, a:visited, a:hover {
 
 .header__logo {
   color: white;
+  position: relative;
+  font-size: 1.25rem;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
+}
+
+.header__logo:hover {
+  color: #2d314d;
+}
+
+.header__logo:hover::before {
+  opacity: 1;
 }
 
 .header__toggle > span {
@@ -398,8 +410,8 @@ a, a:visited, a:hover {
 .project__item {
   border-radius: 0.3125rem;
   overflow: hidden;
-  -webkit-box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0rem 0.1875rem 0.75rem rgba(0, 0, 0, 0.15);
+          box-shadow: 0rem 0.1875rem 0.75rem rgba(0, 0, 0, 0.15);
   background-color: white;
   -webkit-transition: all 150ms ease-in-out;
   transition: all 150ms ease-in-out;
@@ -460,5 +472,13 @@ a, a:visited, a:hover {
 
 .project__description {
   color: #353434;
+}
+
+.resume {
+  display: block;
+  width: 80%;
+  height: 900px;
+  margin: 0 auto;
+  margin-top: 1.875rem;
 }
 /*# sourceMappingURL=style.css.map */

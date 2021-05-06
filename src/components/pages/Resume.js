@@ -1,9 +1,14 @@
 import React from "react"
 import "../scss/style.css"
+import resume from "../Images/resume.pdf"
 
 function Resume() {
     return (
-        <p className="note">To Be Updated</p>
+        <div>
+            {/* <p className="note">To Be Updated</p> */}
+            <object className="resume" data={resume + "#view=FitH"} type="application/pdf">
+            </object>
+        </div>    
     )
 }
 

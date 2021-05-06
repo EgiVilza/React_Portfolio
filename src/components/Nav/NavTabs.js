@@ -38,6 +38,9 @@ function NavTabs() {
         </nav>
     
           <div className="header__menu has-fade">
+              <Link to="/">
+                    Home Page
+              </Link>
               <Link to="/resume">
                 Resume
               </Link>
