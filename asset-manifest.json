@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/React_Portfolio/static/css/main.bddc0c7a.chunk.css",
+    "main.css": "/React_Portfolio/static/css/main.ee11e622.chunk.css",
     "main.js": "/React_Portfolio/static/js/main.e6b52936.chunk.js",
     "main.js.map": "/React_Portfolio/static/js/main.e6b52936.chunk.js.map",
     "runtime-main.js": "/React_Portfolio/static/js/runtime-main.f646fcc0.js",
@@ -8,7 +8,7 @@
     "static/js/2.ce87e4b6.chunk.js": "/React_Portfolio/static/js/2.ce87e4b6.chunk.js",
     "static/js/2.ce87e4b6.chunk.js.map": "/React_Portfolio/static/js/2.ce87e4b6.chunk.js.map",
     "index.html": "/React_Portfolio/index.html",
-    "static/css/main.bddc0c7a.chunk.css.map": "/React_Portfolio/static/css/main.bddc0c7a.chunk.css.map",
+    "static/css/main.ee11e622.chunk.css.map": "/React_Portfolio/static/css/main.ee11e622.chunk.css.map",
     "static/js/2.ce87e4b6.chunk.js.LICENSE.txt": "/React_Portfolio/static/js/2.ce87e4b6.chunk.js.LICENSE.txt",
     "static/media/BlackJackCasino.14dc5764.png": "/React_Portfolio/static/media/BlackJackCasino.14dc5764.png",
     "static/media/CasinoGamePage.ffa32b74.png": "/React_Portfolio/static/media/CasinoGamePage.ffa32b74.png",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.f646fcc0.js",
     "static/js/2.ce87e4b6.chunk.js",
-    "static/css/main.bddc0c7a.chunk.css",
+    "static/css/main.ee11e622.chunk.css",
     "static/js/main.e6b52936.chunk.js"
   ]
 }
