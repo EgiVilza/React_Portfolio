@@ -484,6 +484,7 @@ a, a:visited, a:hover {
 
 @media (max-width: 39.9375em) {
   .resume {
+    margin-top: 0rem;
     width: 100%;
   }
 }
