@@ -1,7 +1,11 @@
 .resume {
     display: block;
-    width: 80%; 
+    width: 90%; 
     height: 900px;
     margin: 0 auto;
     margin-top: 1.875rem;
+
+    @include breakpoint-down(small){
+        width: 100%;
+    }
 }
