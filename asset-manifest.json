@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/React_Portfolio/static/css/main.4424b21d.chunk.css",
-    "main.js": "/React_Portfolio/static/js/main.e6b52936.chunk.js",
-    "main.js.map": "/React_Portfolio/static/js/main.e6b52936.chunk.js.map",
+    "main.js": "/React_Portfolio/static/js/main.d0b7649c.chunk.js",
+    "main.js.map": "/React_Portfolio/static/js/main.d0b7649c.chunk.js.map",
     "runtime-main.js": "/React_Portfolio/static/js/runtime-main.f646fcc0.js",
     "runtime-main.js.map": "/React_Portfolio/static/js/runtime-main.f646fcc0.js.map",
     "static/js/2.ce87e4b6.chunk.js": "/React_Portfolio/static/js/2.ce87e4b6.chunk.js",
@@ -16,12 +16,12 @@
     "static/media/ProfilePhoto.c33229b5.jpg": "/React_Portfolio/static/media/ProfilePhoto.c33229b5.jpg",
     "static/media/WorldRecipeGenerator.2ac9ebb5.png": "/React_Portfolio/static/media/WorldRecipeGenerator.2ac9ebb5.png",
     "static/media/style.css": "/React_Portfolio/static/media/image1.03da78e4.jpg",
-    "static/media/resume.31dbf2ae.pdf": "/React_Portfolio/static/media/resume.31dbf2ae.pdf"
+    "static/media/resume.58f8ebad.pdf": "/React_Portfolio/static/media/resume.58f8ebad.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.f646fcc0.js",
     "static/js/2.ce87e4b6.chunk.js",
     "static/css/main.4424b21d.chunk.css",
-    "static/js/main.e6b52936.chunk.js"
+    "static/js/main.d0b7649c.chunk.js"
   ]
 }
