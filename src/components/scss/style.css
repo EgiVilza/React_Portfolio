@@ -230,7 +230,8 @@ a, a:visited, a:hover {
 
 .header nav {
   position: relative;
-  background-color: #474646;
+  background-color: #504f4f;
+  opacity: 90%;
   padding-top: 1.0625rem;
   padding-bottom: 1.0625rem;
   z-index: 2;
@@ -311,7 +312,8 @@ a, a:visited, a:hover {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../Images/image1.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/image1.jpg");
   /* Set a specific height */
-  height: 500px;
+  margin-top: -65px;
+  height: 550px;
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
