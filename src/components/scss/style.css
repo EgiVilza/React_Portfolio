@@ -231,7 +231,6 @@ a, a:visited, a:hover {
 .header nav {
   position: relative;
   background-color: #504f4f;
-  opacity: 90%;
   padding-top: 1.0625rem;
   padding-bottom: 1.0625rem;
   z-index: 2;
