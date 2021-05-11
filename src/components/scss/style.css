@@ -476,12 +476,15 @@ a, a:visited, a:hover {
 
 .resume {
   display: block;
-  height: 100%;
+  width: 90%;
+  height: 900px;
   margin: 0 auto;
+  margin-top: 1.875rem;
 }
 
 @media (max-width: 39.9375em) {
   .resume {
+    margin-top: 0rem;
     width: 100%;
   }
 }
