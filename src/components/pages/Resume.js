@@ -7,7 +7,7 @@ function Resume() {
     return (
         <div>
             {/* <p className="note">To Be Updated</p> */}
-            <img className="resume" src={resume_1 + "#view=FitH"}/>
+            <img className="resume" src={resume_1}/>
             <img className="resume" src={resume_2}/>
         </div>    
     )
