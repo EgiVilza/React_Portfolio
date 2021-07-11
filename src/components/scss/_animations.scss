@@ -1,3 +1,4 @@
+//Fade
 .has-fade {
     visibility: hidden;
 }
@@ -36,4 +37,21 @@
 }
 .fade-out {
     animation: fade-out 200ms ease-in-out forwards;
+}
+
+//Pop Out
+.popout {
+    overflow: hidden;
+    animation: popout 1s ease;
+    -webkit-animation: popout 1s ease;
+}
+@keyframes popout {
+    from{transform:scale(0)}
+    80%{transform:scale(1.2)}
+    to{transform:scale(1)}
+}
+@-webkit-keyframes popout {
+    from{-webkit-transform:scale(0)}
+    80%{-webkit-transform:scale(1.2)}
+    to{-webkit-transform:scale(1)}
 }

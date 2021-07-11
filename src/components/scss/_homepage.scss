@@ -1,0 +1,106 @@
+.homepage {
+    &__gridPhoto {
+        display: grid;
+        margin: 0.9375rem 0.9375rem;
+        grid-template-columns: 20% 80%;
+    
+        @include breakpoint-down(medium){
+            grid-template-columns: repeat(1, 1fr);
+            justify-items: center;
+        }
+    
+    }
+
+    &__gridText {
+        display: grid;
+        margin: 0.9375rem 0.9375rem;
+        grid-template-columns: 80% 20%;
+        justify-items: right;
+    
+        @include breakpoint-down(medium){
+            grid-template-columns: repeat(1, 1fr);
+            justify-items: center;
+            flex-flow: column;
+            #a{order:2;}
+            #b{order:1;}
+        }
+
+    }
+
+    &__border {
+        border-style: solid;
+        margin: 1.25rem;
+        padding: 0.625rem;
+        border-radius: 10px;
+    }
+
+    &__item {
+        border-radius: 0.3125rem;
+        overflow: hidden; //show the rounded corners
+        box-shadow: 0px 3px 12px rgba(0,0,0,0.15);
+        background-color: white;
+        transition: all 150ms ease-in-out;
+        &:hover {
+            transform: scale(1.05);
+        }
+        margin: auto;
+    }
+
+    &__picture {
+        display: inline-block;
+        position: relative;
+        width: 10rem;
+        height: 10rem;
+        overflow: hidden;
+        border-radius: 50%;
+
+        img {
+            width: 250px;
+            height: 250px;
+            margin-left: -40px;
+            margin-top: -20px;
+          }
+    }
+
+    &__text {
+        padding: .75rem;
+        margin: 1.25rem;
+        width: 50%;
+
+        @include breakpoint-down(medium){
+            width: 80%;
+        }
+    }
+
+}
+
+button {
+    position: relative;
+    display: inline-block;
+    padding: 0.875rem 2.1875rem;
+    background-image: linear-gradient(to right, $limeGreen, $brightCyan);
+    border: 0;
+    border-radius: 3.125rem;
+    cursor: pointer;
+    color: $white;
+    font-weight: 400;
+    font-size: $font-sm;
+    transition: opacity 300ms ease-in-out;
+    overflow: hidden;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background-color: rgba(255,255,255,0.25);
+        opacity: 0;
+        transition: opacity 150ms ease-in-out;
+    }
+
+    &:hover::before {
+        opacity: 1;
+    }
+}

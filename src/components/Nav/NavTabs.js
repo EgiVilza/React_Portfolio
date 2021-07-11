@@ -18,6 +18,8 @@ function NavTabs() {
           <Link to="/" className="header__logo">
                 Home Page
           </Link>
+
+          {/* <p style={{fontSize: "18px", color: "white", margin: "$font-lg:"}}>Welcome to my Portfolio WebPage!</p> */}
     
           <Link id="btnHamburger" to="#" className="header__toggle hide-for-desktop">
             <span></span>

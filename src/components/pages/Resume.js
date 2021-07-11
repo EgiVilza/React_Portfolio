@@ -1,7 +1,7 @@
 import React from "react"
 import "../scss/style.css"
-import resume_1 from "../Images/resume_1.jpg"
-import resume_2 from "../Images/resume_2.jpg"
+// import resume_1 from "../Images/resume_1.jpg"
+// import resume_2 from "../Images/resume_2.jpg"
 import resume from "../Images/Resume_Portfolio.pdf"
 
 function Resume() {
