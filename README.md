@@ -1,40 +1,29 @@
-# React Portfolio
+# Nutritious Recipe Generator
 
 ## Description
-
-Hi! My Name is Egi Vilza. To view some of the projects I have been working on, click on the "Portfolio Projects" link for project links on github repos, videos, and pages as well as a description for each project. At the moment I am currently open for any exciting opportunities in the web development market.
+This project is a web application that allows users to quickly display recipes from a recipe API in different ways, to inspire creativity in the kitchen. The landing page is a recipe search where the user can simply search for whatever recipe they wish. On the "World Recipes" page, the user can use a w orld map or dropdown menu to search for recipes based on where they originate. Also, the "Advanced Search" page allows the user to filter their search for additional parameters, including many common dietary restrictions. Lastly, the "Saved Recipes" page allows the user to see any recipe again after they click the save button next to each recipe on the other pages. 
 
 # Table of Contents
 
-* [Deployment](#deployment)
+* [Screenshots](#screenshots)
 
-* [Built With](#builtwith)
+* [Page Link](#page-link)
 
-* [License](#license)
+* [Video](#video)
 
-* [Questions](#questions)
+* [Technologies Used](#technologies-used)
 
+## Screenshots
+![Screenshot](https://github.com/EgiVilza/NutritiousRecipeGenerator/blob/main/Assets/NRGscreenshot1.png?raw=true)
+![Screenshot](https://github.com/EgiVilza/NutritiousRecipeGenerator/blob/main/Assets/NRGscreenshot2.png?raw=true)
 
-## Deployment
+## Page Link
 
-https://egivilza.github.io/React_Portfolio/
+Page Link: https://egivilza.github.io/NutritiousRecipeGenerator/
 
-## Built With
+## Video
 
-* CSS
-* SASS
-* JavaScript
-* Node.js
-* React JS
-    * react-router
-    * react-dom
+Video Link: https://drive.google.com/file/d/1i8II1TfKTViA3zX4ZIqisy2NNL5KZiDK/view
 
-
-## License
-
-This projects is licensed under the MIT license.
-
-## Questions
-
-If you have any questions about the repo, open an issue or contact me at egivilza@email.com.
-You can find more of my work at: [egivilza](https://github.com/EgiVilza).
+## Technologies Used
+HTML, CSS, JavaScript, Materialize CSS Framework, Positionstack API, Edamam Recipe API, TheMealDB API
